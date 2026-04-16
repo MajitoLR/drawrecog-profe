@@ -25,12 +25,12 @@ def encode_image_to_base64(image_path):
 
 
 # Streamlit 
-st.set_page_config(page_title='Tablero Inteligente')
+st.set_page_config(page_title='Lienzo Inteligente')
 st.title('Tablero Inteligente')
 with st.sidebar:
     st.subheader("Acerca de:")
-    st.subheader("En esta aplicación veremos la capacidad que ahora tiene una máquina de interpretar un boceto")
-st.subheader("Dibuja el boceto en el panel  y presiona el botón para analizarla")
+    st.subheader("Esta aplicación muestra la capacidad actual de una máquina para interpretar un boceto, analizando los trazos del usuario y convirtiéndolos en una representación significativa mediante inteligencia artificial.")
+st.subheader("Plasma tu idea en el panel y presiona el botón para descubrir su análisis.")
 
 # Add canvas component
 #bg_image = st.sidebar.file_uploader("Cargar Imagen:", type=["png", "jpg"])
