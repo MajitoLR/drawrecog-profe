@@ -26,7 +26,7 @@ def encode_image_to_base64(image_path):
 
 # Streamlit 
 st.set_page_config(page_title='Lienzo Inteligente')
-st.title('Tablero Inteligente')
+st.title('Lienzo Inteligente')
 with st.sidebar:
     st.subheader("Acerca de:")
     st.subheader("Esta aplicación muestra la capacidad actual de una máquina para interpretar un boceto, analizando los trazos del usuario y convirtiéndolos en una representación significativa mediante inteligencia artificial.")
